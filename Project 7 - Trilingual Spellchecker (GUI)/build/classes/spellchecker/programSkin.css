@@ -1,0 +1,87 @@
+.root {
+   -fx-background-image:  url("letters.jpg");
+   -fx-background-size:   cover;
+}
+
+.text-field {
+    -fx-background-color:  transparent;
+    -fx-border-color:      #86cfdb;
+    -fx-border-width:      2;
+    -fx-text-fill:         #86cfdb;
+    -fx-font-weight:       bold;
+    -fx-alignment:         center;
+    -fx-prompt-text-fill:  #2f484d;
+}
+
+.check-box {
+    -fx-font-family:    "Courrier";
+    -fx-font-size:      12;
+    -fx-font-weight:    bold;
+    -fx-text-fill:      #86cfdb;
+}
+
+#updateStyle {
+    -fx-font:           12px Courrier;
+    -fx-font-weight:    bold;
+    -fx-fill:           #86cfdb;
+}
+
+.radio-button {
+    -fx-font-family:    "Courrier";
+    -fx-font-size:      12;
+    -fx-font-weight:    bold;
+    -fx-text-fill:      #86cfdb;
+}
+
+.radio-button .dot {
+    -fx-mark-color: #203033;
+}
+
+.scroll-bar .increment-button, 
+.scroll-bar .decrement-button,
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: #e5ffff;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #8de7fb;
+    -fx-background-insets: 0, 0, 0;
+}
+
+.scroll-bar .increment-button:hover,
+.scroll-bar .increment-button:pressed,
+.scroll-bar .decrement-button:hover,
+.scroll-bar .decrement-button:pressed {
+    -fx-background-color: #8de7fb;
+}
+
+.text-area {
+    -fx-background-color:         transparent;
+    -fx-control-inner-background: #182325;
+    -fx-border-color:             #86cfdb;
+    -fx-border-width:             2.5;
+    -fx-text-fill:                #86cfdb;
+    -fx-prompt-text-fill:         #2f484d;
+}
+
+.label {
+    -fx-text-fill:        #86cfdb;
+    -fx-text-alignment:   CENTER;
+}
+
+
+.button {
+    -fx-text-fill:        #203033;
+    -fx-font-family:      "Courrier";
+    -fx-font-weight:      bold;
+    -fx-background-color: #86cfdb;
+}
+
+.button:hover {
+    -fx-background-color: #203033;
+    -fx-text-fill:        #86cfdb;
+}

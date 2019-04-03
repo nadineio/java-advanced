@@ -1,0 +1,5 @@
+package spellchecker;
+
+class programSkin {
+    
+}
