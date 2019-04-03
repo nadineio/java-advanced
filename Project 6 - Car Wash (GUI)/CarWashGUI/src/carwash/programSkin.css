@@ -1,0 +1,118 @@
+.root {
+   -fx-background-image:   url("water-car.jpg");
+   -fx-background-size:    cover;
+}
+
+.text-field {
+    -fx-background-color:  transparent;
+    -fx-border-color:      #8de7fb;
+    -fx-border-width:      2.5;
+    -fx-text-fill:         #203c54;
+    -fx-prompt-text-fill:  #7891a6;
+    -fx-font-weight:       bold;
+    -fx-alignment:         center;
+}
+
+.radio-button {
+    -fx-font-family:    "Courrier";
+    -fx-font-size:      12;
+    -fx-font-weight:    bold;
+    -fx-text-fill:      #203c54;
+}
+
+.radio-button .dot {
+    -fx-mark-color: #203c54;
+}
+
+.scroll-bar .increment-button, 
+.scroll-bar .decrement-button,
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: #e5ffff;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #8de7fb;
+    -fx-background-insets: 0, 0, 0;
+}
+
+.scroll-bar .increment-button:hover,
+.scroll-bar .increment-button:pressed,
+.scroll-bar .decrement-button:hover,
+.scroll-bar .decrement-button:pressed {
+    -fx-background-color: #8de7fb;
+}
+
+.text-area {
+    -fx-background-color:         transparent;
+    -fx-control-inner-background: #cdf4ff;
+    -fx-border-color:             #8de7fb;
+    -fx-border-width:             2.5;
+    -fx-text-fill:                #203c54;
+    -fx-font-weight:              bold;
+}
+
+/*.text-area .text {
+    -fx-text-alignment: center;
+}*/
+
+.label {
+    -fx-text-fill:        #203c54;
+    -fx-text-alignment:   CENTER;
+}
+
+.button {
+    -fx-text-fill:        #e5ffff;
+    -fx-font-family:      "Courrier";
+    -fx-font-weight:      bold;
+    -fx-background-color: #203c54;
+}
+
+.button:hover {
+    -fx-background-color: #8de7fb;
+    -fx-text-fill:        #203c54;
+}
+
+/*.root {
+   -fx-background-image:   url("clouds.jpg");
+   -fx-background-size:    cover;
+}
+
+.text-field {
+    -fx-background-color:  transparent;
+    -fx-border-color:      #e5ffff;
+    -fx-border-width:      2.5;
+    -fx-text-fill:         #e5ffff;
+    -fx-prompt-text-fill:  #7891a6;
+    -fx-font-weight:       bold;
+    -fx-alignment:         center;
+}
+
+.text-area {
+    -fx-background-color:  transparent;
+    -fx-border-color:      #e5ffff;
+    -fx-border-width:      2.5;
+    -fx-text-fill:         #203c54;
+    -fx-font-weight:       bold;
+    -fx-alignment:         center;
+}
+
+.label {
+    -fx-text-fill:        #e5ffff;
+    -fx-text-alignment:   CENTER;
+}
+
+.button {
+    -fx-text-fill:        #e5ffff;
+    -fx-font-family:      "Courrier";
+    -fx-font-weight:      bold;
+    -fx-background-color: #203c54;
+}
+
+.button:hover {
+    -fx-background-color: #e5ffff;
+    -fx-text-fill:        #203c54;
+}*/
