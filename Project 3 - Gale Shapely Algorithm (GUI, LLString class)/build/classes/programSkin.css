@@ -1,0 +1,117 @@
+.root {
+   -fx-background-image: url("background.jpg");
+   -fx-background-size: cover;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #65317f;
+    -fx-border-color: #b9aad8;
+    -fx-font-family: "Courrier";
+    -fx-font-weight: bold;
+}
+
+.table-view .table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-row-cell .table-cell{
+    -fx-background-color: #b9aad8;
+    -fx-border-color: black;
+    -fx-font-family: "Courrier";
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+
+.table-row-cell:empty {
+    -fx-border-width: 0px;
+}
+
+.label {
+    -fx-text-fill: #b9aad8;
+    -fx-text-alignment: CENTER;
+}
+
+.button {
+    -fx-text-fill: #b9aad8;
+    -fx-font-family: "Courrier";
+    -fx-font-weight: bold;
+    -fx-background-color: #65317f;
+}
+
+.button:hover {
+    -fx-background-color: #b9aad8;
+    -fx-text-fill: black;
+}
+
+.borders {
+    -fx-border-color: black;
+    -fx-border-style: dashed;
+    -fx-border-width: 5;
+}    
+
+/*.root {
+   -fx-background-image: url("background2.jpg");
+   -fx-background-size: cover;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #ff9999;
+    -fx-border-color: black;
+}
+
+.table-view .table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-row-cell .table-cell{
+    -fx-background-color: #ffdddd;
+    -fx-border-color: black;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+
+.table-row-cell:empty {
+    -fx-border-width: 0px;
+}
+
+.label {
+    -fx-text-fill: #666666;
+    -fx-text-alignment: CENTER;
+}
+
+.button {
+    -fx-text-fill: #333333;
+    -fx-font-family: "Courrier";
+    -fx-font-weight: bold;
+    -fx-background-color: #ff9999;
+    -fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #ff6666;
+}
+
+.borders {
+    -fx-border-color: black;
+    -fx-border-style: dashed;
+    -fx-border-width: 5;
+} */   
